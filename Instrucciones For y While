@@ -1,11 +1,13 @@
 # Verificar si es número primo
+# Este codigo ya fue comprobado previamente en clase de metodos númericos
+
 n = int(input("Ingresa el numero que quieras verificar we: "))
 primo = True
 
 for i in range(2, n):
     if n % i == 0:
         primo = False
-        while  # Si encontramos un divisor, no es primo y se sale del bucle
+        while 
 
 if primo:
     print("El numero", n, "es primo")
