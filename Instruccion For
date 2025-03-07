@@ -1,0 +1,9 @@
+# Este codigo te dice si un número es primo 
+def es_primo(n):
+    primo= True
+    for i in range(2, n-1):
+        if ( n % i) == 0:
+            primo = False
+    return primo
+n = int(input("Ingrese valor de número:"))
+print("El número", n, "es primo", primo)
